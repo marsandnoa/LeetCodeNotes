@@ -1,0 +1,14 @@
+E:\Users\noah\Documents\leetcode\leetcode\bin\Debug\net8.0\leetcode.exe
+E:\Users\noah\Documents\leetcode\leetcode\bin\Debug\net8.0\leetcode.deps.json
+E:\Users\noah\Documents\leetcode\leetcode\bin\Debug\net8.0\leetcode.runtimeconfig.json
+E:\Users\noah\Documents\leetcode\leetcode\bin\Debug\net8.0\leetcode.dll
+E:\Users\noah\Documents\leetcode\leetcode\bin\Debug\net8.0\leetcode.pdb
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.AssemblyInfoInputs.cache
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.AssemblyInfo.cs
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.csproj.CoreCompileInputs.cache
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.dll
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\refint\leetcode.dll
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.pdb
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\leetcode.genruntimeconfig.cache
+E:\Users\noah\Documents\leetcode\leetcode\obj\Debug\net8.0\ref\leetcode.dll
