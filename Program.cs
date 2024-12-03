@@ -9,6 +9,7 @@ namespace LeetCode
             //Test1346();
             //Test1652();
             //Test1455();
+            Test2109();
         }
 
         static void Test1346()
@@ -100,6 +101,39 @@ namespace LeetCode
 
             Console.WriteLine($"Sentence: \"{sentence5}\", Search Word: \"{searchWord5}\"");
             Console.WriteLine($"Result: {leetCode1455.IsPrefixOfWord(sentence5, searchWord5)}");
+            Console.WriteLine();
+        }
+
+        static void Test2109()
+        {
+            var leetCode2109 = new LeetCode2109();
+
+            // Test cases for AddSpaces
+            string s1 = "EnjoyYourCoffee";
+            int[] spaces1 = { 5, 9 };
+
+            string s2 = "HelloWorld";
+            int[] spaces2 = { 5 };
+
+            string s3 = "InsertSpacesHere";
+            int[] spaces3 = { 6, 12 };
+
+            string s4 = "NoSpacesToAdd";
+            int[] spaces4 = { };
+
+            // Test the method and print results
+            Console.WriteLine("Testing 2109: Adding Spaces to a String");
+            Console.WriteLine($"Input: \"{s1}\", Spaces: {ArrayToString(spaces1)}");
+            Console.WriteLine($"Result: \"{leetCode2109.AddSpaces(s1, spaces1)}\"");
+
+            Console.WriteLine($"Input: \"{s2}\", Spaces: {ArrayToString(spaces2)}");
+            Console.WriteLine($"Result: \"{leetCode2109.AddSpaces(s2, spaces2)}\"");
+
+            Console.WriteLine($"Input: \"{s3}\", Spaces: {ArrayToString(spaces3)}");
+            Console.WriteLine($"Result: \"{leetCode2109.AddSpaces(s3, spaces3)}\"");
+
+            Console.WriteLine($"Input: \"{s4}\", Spaces: {ArrayToString(spaces4)}");
+            Console.WriteLine($"Result: \"{leetCode2109.AddSpaces(s4, spaces4)}\"");
             Console.WriteLine();
         }
 
