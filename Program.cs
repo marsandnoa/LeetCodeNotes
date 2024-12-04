@@ -9,7 +9,8 @@ namespace LeetCode
             //Test1346();
             //Test1652();
             //Test1455();
-            Test2109();
+            //Test2109();
+            Test2825();
         }
 
         static void Test1346()
@@ -134,6 +135,40 @@ namespace LeetCode
 
             Console.WriteLine($"Input: \"{s4}\", Spaces: {ArrayToString(spaces4)}");
             Console.WriteLine($"Result: \"{leetCode2109.AddSpaces(s4, spaces4)}\"");
+            Console.WriteLine();
+        }
+
+        static void Test2825()
+        {
+            var leetCode2825 = new LeetCode2825();
+
+            // Test cases
+            string str1_1 = "abc";
+            string str2_1 = "acd";
+
+            string str1_2 = "ab";
+            string str2_2 = "z";
+
+            string str1_3 = "zab";
+            string str2_3 = "abc";
+
+            string str1_4 = "xyz";
+            string str2_4 = "ayz";
+
+            string str1_5 = "aaaa";
+            string str2_5 = "a";
+
+            string str1_6 = "a";
+            string str2_6 = "b";
+
+            // Print results
+            Console.WriteLine("Testing 2825: Can Make Subsequence");
+            Console.WriteLine($"str1: \"{str1_1}\", str2: \"{str2_1}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_1, str2_1)}");
+            Console.WriteLine($"str1: \"{str1_2}\", str2: \"{str2_2}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_2, str2_2)}");
+            Console.WriteLine($"str1: \"{str1_3}\", str2: \"{str2_3}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_3, str2_3)}");
+            Console.WriteLine($"str1: \"{str1_4}\", str2: \"{str2_4}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_4, str2_4)}");
+            Console.WriteLine($"str1: \"{str1_5}\", str2: \"{str2_5}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_5, str2_5)}");
+            Console.WriteLine($"str1: \"{str1_6}\", str2: \"{str2_6}\" -> Result: {leetCode2825.CanMakeSubsequence(str1_6, str2_6)}");
             Console.WriteLine();
         }
 
