@@ -41,6 +41,35 @@ namespace LeetCode
             return -1;
         }
 
+        public static int BinarySearchIndexInsertion<T>(List<T> list, T target, IComparer<T>? comparer = null)
+        {
+            comparer ??= Comparer<T>.Default;
+            int left = 0;
+            int right = list.Count - 1;
+
+            while (left <= right)
+            {
+                int mid = left + (right - left) / 2;
+
+                int comparison = comparer.Compare(target, list[mid]);
+                if (comparison == 0)
+                {
+                    return mid;
+                }
+                else if (comparison < 0)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+
+            return left;
+        }
+
+
         public static T[] RemoveAt<T>(T[] array, int index)
         {
             if (index < 0 || index >= array.Length)
