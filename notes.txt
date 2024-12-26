@@ -1,0 +1,6 @@
+if monotonic - possibly binary search
+if monotonic - possibly greedy
+
+k subset problem
+Count the number of subsets whose (sum of elements) has a particular difference
+Find all subsets whose (max element – min element) = k
